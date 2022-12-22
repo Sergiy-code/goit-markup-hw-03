@@ -27,10 +27,8 @@ ul{
 
 .conteiner{
 
-    max-width: 1128px;
+    max-width: 1158px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 
@@ -54,8 +52,6 @@ body {
 .header .conteiner{
     display: flex;
     align-items: center;
-    margin-top: 24px;
-    margin-bottom: 24px;
 }
 
 .header nav,
@@ -83,12 +79,15 @@ body {
 
 
 .header-link{
+    display: block;
     text-decoration: none;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--brandcolor);
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-link:hover,
@@ -166,10 +165,7 @@ color: var(--colorsky);
     background-color: var(--colorsky);
     padding: 16px 32px;
     margin-top: 48px;
-    margin-right: auto;
-    margin-left: auto;
-    
-
+    border-radius: 4px;
 }
 
 .hero_button:hover,
@@ -248,12 +244,6 @@ color: var(--colordurk);
     margin-bottom: 72px;
 }
 
-.section.activity .conteiner-in{
-
-    display: flex;
-    
-}
-
 .section.activity ul{
 
     display: flex;
@@ -283,13 +273,9 @@ background-color: #F4F4FD;
 .team_list_item{
 
     background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
+    /* width: calc((100% - 72px) / 4); */
 }
 
-.team section .conteiner-in{
-
-    display: flex;
-}
 
 .team.section ul{
 
@@ -298,9 +284,10 @@ background-color: #F4F4FD;
     gap: 24px;
 }
 
-.img{
 
-    margin-bottom: 32px;
+.team-text{
+    margin-top: 32px;
+    margin-bottom: 32px
 }
 
 .name{
@@ -325,22 +312,17 @@ background-color: #F4F4FD;
 /* -----------------------Portfolio Portfolio---------------------------- */
 
 
+.section.portfolio ul.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
 
-
-/* -----------------------Filtr portfolio------------------------- */
-
-.section.buttons{
-
-    padding-top: 96px;
-    padding-bottom: 72px;
 }
 
-.section.buttons ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-    
+.buttons{
+
+    margin-bottom: 72px;
 }
 .button-filtr{
 
@@ -354,7 +336,10 @@ background-color: #F4F4FD;
     background-color: #E7E9FC;
     border-color: #F4F4FD;
     border-radius: 4px;
+    }
 
+.button-filtr{
+    padding: 8px 12px;
 }
 
 .button-filtr:hover,
@@ -365,24 +350,23 @@ background-color: #F4F4FD;
 
 /* ---------------------Portfolio section----------------------------- */
 
-.section.portfolio{
-
-    padding-top: 0;
-    /* background-color: #E5E5E5; */
-}
-
-.section.portfolio .conteiner{
 
 
-}
-
-.section.portfolio ul{
+/* .section.portfolio ul{ */
 
     display: flex;
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
-    border-bottom: red;
+
+}
+
+.section.portfolio ul.portfolio-list{
+
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
 
 }
 
@@ -393,8 +377,8 @@ background-color: #F4F4FD;
 }
 
 .porfolio-list-list{
-
     border-bottom: 0.5px solid #F4F4FD;
+    
 }
 
 .img-portfolio{
@@ -402,6 +386,12 @@ background-color: #F4F4FD;
     margin-bottom: 32px;
 }
 
+
+/* .portfolio-text{ */
+    padding-left: 16px;
+    padding-top: 32px;
+    
+}
 .portfolio_list_link{
 
     text-decoration: none;
