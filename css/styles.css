@@ -352,15 +352,6 @@ background-color: #F4F4FD;
 
 
 
-/* .section.portfolio ul{ */
-
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 48px;
-    column-gap: 24px;
-
-}
-
 .section.portfolio ul.portfolio-list{
 
     display: flex;
@@ -372,26 +363,27 @@ background-color: #F4F4FD;
 
 .section.portfolio li{
 
-    width: calc((100% - 48px) / 3);
     background-color: #FFFFFF;
 }
 
-.porfolio-list-list{
-    border-bottom: 0.5px solid #F4F4FD;
-    
+.portfolio-list-list{
+
+    width: calc((100% - 48px) / 3);
 }
 
-.img-portfolio{
+/* .img-portfolio{ */
 
     margin-bottom: 32px;
 }
 
+.portfolio-text{
 
-/* .portfolio-text{ */
     padding-left: 16px;
     padding-top: 32px;
-    
+    padding-bottom: 32px;
+    border-bottom: 0.5px solid #F4F4FD;
 }
+
 .portfolio_list_link{
 
     text-decoration: none;
@@ -405,7 +397,7 @@ background-color: #F4F4FD;
     letter-spacing: 0.02em;
     color: var(--brandcolor);
     margin-bottom: 8px;
-    margin-left: 16px;
+    /* margin-left: 16px; */
 }
 
 .portfolio_list_filtr{
@@ -415,8 +407,8 @@ background-color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--colordurk);
-    margin-bottom: 32px;
-    margin-left: 16px;
+    /* margin-left: 16px; */
+    /* margin-bottom: 32px; */
 }
 
 /* -----------------------footer------------------------------- */
