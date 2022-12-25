@@ -29,6 +29,8 @@ ul{
 
     max-width: 1158px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 
@@ -286,8 +288,8 @@ background-color: #F4F4FD;
 
 
 .team-text{
-    margin-top: 32px;
-    margin-bottom: 32px
+    padding-top: 32px;
+    padding-bottom: 32px
 }
 
 .name{
@@ -297,7 +299,7 @@ background-color: #F4F4FD;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--brandcolor);
-    margin-bottom: 8px;
+    padding-bottom: 8px;
     text-align: center;
 }
 
@@ -306,7 +308,7 @@ background-color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--colordurk);
-    margin-bottom: 32px;
+    /* margin-bottom: 32px; */
     text-align: center;
 }
 /* -----------------------Portfolio Portfolio---------------------------- */
@@ -334,8 +336,7 @@ background-color: #F4F4FD;
     letter-spacing: 0.04em;
     color: var(--colorsky);
     background-color: #E7E9FC;
-    border-color: #F4F4FD;
-    border-radius: 4px;
+    border: 1px solid #F4F4FD;
     }
 
 .button-filtr{
@@ -346,6 +347,7 @@ background-color: #F4F4FD;
 .button-filtr:focus{
     color: var(--colorlight);
     background-color:  var(--colorsky);
+    border-color: transparent;
 }
 
 /* ---------------------Portfolio section----------------------------- */
